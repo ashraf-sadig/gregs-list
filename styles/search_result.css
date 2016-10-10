@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 80px;
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.nav-link {
+	font-size: 18px;
+	padding: 0 6px;
+	color: purple;
+	margin-top: 0;
+	//position: absolute;
+	right: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.search-label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+#search {
+	font-size: 17px;
+	font-weight: 1500;
+	line-height: 30px;
+	height: 30px;
+	padding: 0 5px 0 8px;
+	margin-bottom: 30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	padding: 0 5px 0 8px;
+	width: 400px;
+}
+
+.search-button {
+	font-size: 17px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+.magnifying-glass-icon {
+	height: 100%;
+}
+
+nav.pages {
+	display: inline-block;
+	font-size: 0;
+	margin-bottom: 30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+.pages-display {
+	font-size: 16px;
+	padding: 0 30px;
+	padding: 8px 25px;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+
+}
+
+.pages-button{
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;
+	border-radius: 3px;
+}
+
+.listings {
+	padding: 0;
+	margin-bottom: 15px;
+}
+.listing-date, .listing-location {
+	color: #999;
+}
+
+.listing-title {
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.gl-logo {
+	position: absolute;
+	left: 10px;
+
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.top-nav {
+	text-align: right;
+}
+
+.listings li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+nav ul, nav li {
+	display: inline-block;
+}
+
+input {
+	color: black;
+}
